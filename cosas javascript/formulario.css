@@ -1,0 +1,68 @@
+
+/* Estilos para el contenedor del formulario */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: rgba(147, 146, 170, 0.1);
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilos para el título "Contactenos" */
+  #contactenos {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .container{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+  
+  /* Estilos para los grupos de formulario */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para las etiquetas de formulario */
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los campos de entrada de texto y correo electrónico */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+  }
+  
+  /* Estilos para el botón de enviar */
+  button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el botón de enviar al pasar el mouse sobre él */
+  button[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  #mensaje-agradecimiento{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
